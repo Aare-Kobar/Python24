@@ -30,6 +30,7 @@ varv = "blue"
 varv2 = "red"
 varv3 = "green"
 
+#kolmnurk sinine
 turtle.speed(5)
 turtle.color(varv)
 turtle.pensize(1)
@@ -46,6 +47,7 @@ turtle.penup()
 turtle.goto(kylje_pikkus*1.5,0)
 turtle.pendown()
 
+#kolmnurk punane
 turtle.speed(5)
 turtle.color(varv2)
 turtle.pensize(5)
@@ -62,6 +64,7 @@ turtle.penup()
 turtle.goto(kylje_pikkus*3,0)
 turtle.pendown()
 
+#kolmnurk roheline
 turtle.speed(5)
 turtle.color(varv3)
 turtle.pensize(10)
