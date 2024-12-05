@@ -1,8 +1,6 @@
 # 2. ülesanne
 # Aare 05.12.24
 
-
-import turtle
 """
 Loo värvilised olümpiarõngad vastavalt nõutele
 
@@ -12,6 +10,14 @@ Loo värvilised 50px olümpiarõngad (sinine, must, punane, kollane, roheline)
 Joone paksus 6
 Kiirus 0
 """
+
+import turtle
+
+# aknaseaded
+aken = turtle.Screen()
+aken.setup(width=600,height=400)
+aken.title("Olümpiarõngad Aare-Aigar")
+
 
 turtle.speed(6)
 turtle.penup()
@@ -36,6 +42,7 @@ turtle.pendown()
 turtle.color("red")
 turtle.pensize(6)
 turtle.circle(50,360)
+
 #kollane
 turtle.penup()
 turtle.goto(-150,50)
