@@ -1,5 +1,6 @@
-#Ülesanne 8
+# Ülesanne 8
 # Teosta ülesanded etteantud sõnastikuga:
+
 telefonid={
 'Mari': '5957503',
 'Toomas': '5719979',
@@ -29,3 +30,7 @@ telefonid={
 # Kuva kõik numbrid
 # Lisa võimalus kasutajal otsida nime järgi telefoninumbreid. Lisa teade, kui otsitavat nime ei leitud.
 
+
+print(f" Rasmuse telefoni number on: {telefonid["Rasmus"]}")
+telefonid.pop("Kristi")
+print(telefonid)
