@@ -93,9 +93,6 @@ import turtle
 
 kylg = 100
 
-sc = turtle.Screen()
-sc.setup(startx = 600, starty = 0) 
-
 turtle.pensize(2)
 turtle.shape("turtle")
 turtle.speed(5)
