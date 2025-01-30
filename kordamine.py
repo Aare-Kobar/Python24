@@ -188,10 +188,11 @@ for track in fail:
 print()
 fail = open(musa, encoding="UTF-8")
 valik = int(input("Vali lugu: "))
+fail.seek(0)
 mangin = 1
 for track in fail:
     if valik == mangin:
-        print(track, end="")
+        print(f" Mängin lugu: ",track, end="")
     mangin+=1
 
 fail.close()
