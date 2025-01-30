@@ -88,7 +88,7 @@ for autod in ev_data:
     
 # 14.  Kasuta Python Turtle moodulit, et tsüklite abil luua järgmised kujundid.
 #  * Kasuta muutujaid ja nendevahelisi seoseid, et kujundid oleks skaleeritavad 
-
+"""
 import turtle
 
 kylg = 100
@@ -116,6 +116,30 @@ for i in range(6):
         turtle.left(60)
         turtle.forward(kylg)
         turtle.left(120)
+    turtle.right(60)
+    
+turtle.hideturtle()
+turtle.done() """
+
+# Parandus 
+
+import turtle
+
+kylg = 150
+
+turtle.pensize(2)
+turtle.shape("turtle")
+turtle.speed(5)
+
+for i in range(6):
+    for y in range(1):
+        turtle.forward(kylg/2)
+        turtle.left(120)
+        turtle.forward(kylg)
+        turtle.left(120)
+        turtle.forward(kylg)
+        turtle.left(120)
+        turtle.forward(kylg/2)
     turtle.right(60)
     
 turtle.hideturtle()
