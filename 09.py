@@ -129,15 +129,14 @@ turtle.shape("turtle")
 turtle.speed(5)
 
 for i in range(6):
-    for y in range(1):
-        turtle.forward(kylg/2)
-        turtle.left(120)
-        turtle.forward(kylg)
-        turtle.left(120)
-        turtle.forward(kylg)
-        turtle.left(120)
-        turtle.forward(kylg/2)
+    turtle.forward(kylg/2)
+    turtle.left(120)
+    turtle.forward(kylg)
+    turtle.left(120)
+    turtle.forward(kylg)
+    turtle.left(120)
+    turtle.forward(kylg/2)
     turtle.right(60)
-    
+ 
 turtle.hideturtle()
 turtle.done()
