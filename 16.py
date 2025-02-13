@@ -31,9 +31,15 @@ try:
 except:
     print("Kaust on juba olemas!")
 
-
+# Kustutab kausta
 if os.path.exists(kp+"/"+str(kustuta)):
     os.rmdir(kp+"/"+str(kustuta))
     print(f"{kustuta} kataloog on kustutatud")
 else:
     print(f"{kustuta} kataloogi ei leitud")
+
+# Kuva kataloogi sisu
+dir_list = os.listdir(kp)
+print("Kataloogi sisu: ")
+for i in dir_list:
+    print(i)
