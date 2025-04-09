@@ -1,0 +1,74 @@
+Koosta programm, mis töötleb etteantud JSON-faile otse veebist. JSON-faile ära salvesta, vaid loe neid otse URL-i kaudu. 
+Lahenda ülesandes kirjeldatud nõuded. Kirjuta selge ja loetav kood, kasuta asjakohaseid kommentaare ning muutujaid nimeta arusaadavalt. 
+Esita oma töö GitHubi lingina.
+
+1. tooted.json
+•	Leia, mitu erinevat tootekategooriat on failis esindatud.
+•	Leia kõige odavam ja kõige kallim toode ning nende hinnad.
+•	Leia, mitu toodet kuulub kategooriasse "Toidukaubad".
+•	Arvuta kõikide toodete koguväärtus laoseisu järgi.
+•	Leia kõik tooted, mille laoseis on alla 10 ühiku.
+________________________________________
+2. broneeringud.json
+•	Leia, kui palju on broneeringuid teenusele "Massaaž".
+•	Leia kõik broneeringud, mis toimuvad pärast kella 12:00.
+•	Leia kliendid, kelle broneeringud on nädalavahetusel.
+•	Leia päev, millel on kõige rohkem broneeringuid.
+•	Loetle unikaalsed teenused ja mitu korda neid broneeriti.
+________________________________________
+3. uritused.json
+•	Leia, mitu üritust toimub Tallinnas.
+•	Leia kõik üritused, mis toimuvad pärast kellaaega 18:00.
+•	Leia kuu, kus toimub kõige rohkem üritusi.
+•	Leia kõige varasem ja kõige hilisem üritus kalendris.
+•	Loetle kõik üritused, mis toimuvad nädalapäeval "laupäev" või "pühapäev".
+________________________________________
+4. raamatud.json
+•	Leia, mitu raamatut ilmus enne 2000. aastat.
+•	Leia kõik raamatud, mis pole saadaval.
+•	Leia vanim raamat andmestikus.
+•	Leia žanr, mida esineb andmetes kõige sagedamini.
+•	Leia, mitu raamatut on välja antud pärast aastat 2010.
+________________________________________
+5. ilmateade.json
+•	Leia kõige madalam ja kõige kõrgem temperatuur failis.
+•	Arvuta iga linna keskmine temperatuur kogu perioodi jooksul.
+•	Leia päevad, mil temperatuur oli negatiivne.
+•	Loetle, mitu päeva oli olukord "Päikesepaisteline".
+•	Leia, mitu päeva oli temperatuur üle 20°C.
+________________________________________
+6. tootajad.json
+•	Leia ametikoht, mida esineb kõige rohkem.
+•	Leia kõige kõrgema ja kõige madalama palgaga töötaja.
+•	Arvuta ettevõtte keskmine töötajate palk.
+•	Loetle töötajad, kes töötavad IT-osakonnas.
+•	Leia kõik töötajad, kelle nimi algab tähega "M".
+________________________________________
+7. autod.json
+•	Leia kõige odavam ja kõige kallim auto.
+•	Leia automark, mida esineb andmetes kõige rohkem.
+•	Leia kõik autod, mille hind on alla 10 000 euro.
+•	Arvuta keskmine hind automargi "BMW" kohta.
+•	Leia autod, mis on valmistatud "Audi" margi alla ning maksavad üle 20 000 euro.
+________________________________________
+8. arved.json
+•	Leia makstud ja tasumata arvete arv.
+•	Leia kogusumma kõikidest makstud arvetest.
+•	Leia keskmine arvete summa.
+•	Leia, mitu arvet on maksetähtajaga järgmise 30 päeva jooksul.
+•	Loetle kõik tasumata arved, mille tähtaeg on juba möödunud.
+________________________________________
+9. hinded.json
+•	Leia õpilane, kellel on kõige kõrgem keskmine hinne.
+•	Leia, mitu korda on pandud hinne "5".
+•	Leia aine, milles on kõige madalam keskmine hinne.
+•	Leia õpilased, kelle nimi esineb nimekirjas rohkem kui 3 korda.
+•	Arvuta kõikide hinnete keskmine.
+________________________________________
+10. kasutajad.json
+•	Kuva kõik "admin" rolliga nimed.
+•	Leia, mitu kasutajat on rolliga "admin".
+•	Leia kõik kasutajad, kelle staatus on "peatatud".
+•	Leia, mitu kasutajat on õigusega "kustuta".
+•	Leia kõige sagedamini esinev roll kasutajate seas.
+
