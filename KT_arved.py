@@ -3,7 +3,7 @@
 # •	Leia kogusumma kõikidest makstud arvetest.
 # •	Leia keskmine arvete summa.
 # •	Leia, mitu arvet on maksetähtajaga järgmise 30 päeva jooksul.
-# •	Loetle kõik tasumata arved, mille tähtaeg on juba möödunud.
+# •	Loetle kõik tasumata arved, mille tähtaeg on juba möödunud..
 from datetime import datetime, timedelta
 import requests
 
